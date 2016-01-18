@@ -92,7 +92,8 @@ static PyMethodDef exmod_methods[] = {
 	{NULL, NULL, 0, NULL}   /*sentinal*/
 };
 
-PyMODINIT_FUNC_initexmod(void){
+PyMODINIT_FUNC
+initexmod(void){
     PyObject* m;
     m = Py_InitModule("exmod", exmod_methods);
     if (m == NULL) return;
@@ -127,13 +128,4 @@ setup(
 )
 
 ```
-
-I get this error on import
-```text
->>> import exmod
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ImportError: dynamic module does not define init function (initexmod)
-```
-
-
+Or read : https://docs.python.org/3/extending/extending.html

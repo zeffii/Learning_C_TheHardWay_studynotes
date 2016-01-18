@@ -128,7 +128,12 @@ setup(
 
 ```
 
-
-
-
+I get this error on import
+```text
+>>> import exmod
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: dynamic module does not define init function (initexmod)
 ```
+
+

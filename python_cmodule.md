@@ -1,6 +1,7 @@
-Following along with this video set
-1 - https://www.youtube.com/watch?v=s6cvSkbWG3s
-2 - https://www.youtube.com/watch?v=bfmslcTKriw
+Following along with this video set  
+
+1. https://www.youtube.com/watch?v=s6cvSkbWG3s  
+2. https://www.youtube.com/watch?v=bfmslcTKriw  
 
 totally confused about this
 
